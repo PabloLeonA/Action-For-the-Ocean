@@ -5,7 +5,7 @@ Action for the ocean es un proyecto realizado para el hackathon de LaunchX que a
 
 ## Api Routes
 
-´´´
+``` javascript
 const express = require("express");
 const usersRoutes = require("./usersRoutes");
 const usersBeach = require("./usersBeach");
@@ -18,5 +18,5 @@ function routerApi(app) {
 }
 
 module.exports = routerApi;
-´´´
+``` javascript
 
